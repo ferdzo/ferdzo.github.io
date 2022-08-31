@@ -1,8 +1,8 @@
 <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
@@ -26,7 +26,11 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-    <!-- <table>
+   
+  </nav>
+
+  <div class="sidebar-item">
+    <table>
       <tbody>
       <tr>
       <td><i class="fa fa-linkedin-square"></i></td>
@@ -36,10 +40,7 @@
       
       </tr>
       </tbody>
-      </table> -->
-  </nav>
-
-  <div class="sidebar-item">
+      </table> 
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
