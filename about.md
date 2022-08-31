@@ -2,10 +2,9 @@
 layout: page
 title: About
 ---
-# About
 ### Hey there!
 I'm Andrej Mickov and this is my blog.
-A Computer Science student with passion for everything computer related, amateur radio and good food and fashion.
+A Computer Science student with passion for everything computer related, amateur radio, good food and fashion.
 
 Currently studying at the Faculty of Computer Science and Engineering (FINKI) in Skopje, Macedonia.
 I have passion for computers and technology since I was very young and it looks like it will continue that way.
