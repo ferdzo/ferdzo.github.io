@@ -1,7 +1,7 @@
 # Setup
 title:               ferdzo's blog
 tagline:             'Blog of a CS student for system and network administration, computer hardware and amateur radio'
-description:         'Blog for everything '
+description:         'Original content from every aspect of our lives '
 url:                 https://blog.ferdzo.xyz
 baseurl:             ''
 paginate:            5
