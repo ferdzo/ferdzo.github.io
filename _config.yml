@@ -6,7 +6,7 @@ url:                 https://blog.ferdzo.xyz
 baseurl:             ''
 paginate:            5
 permalink:           pretty
-
+future: true
 # About/contact
 author:
   name:              Andrej Mickov
