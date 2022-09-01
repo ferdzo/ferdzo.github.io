@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Using Nginx as subdomain proxy for Weechat relay  
+title: Using Nginx as subdomain proxy for Weechat relay
+excerpt_separator: <!--end_excerpt-->
+
 --- 
 
 **Weechat** is an IRC client with relay options that enables us to use external applications as the frontend for Weechat.
@@ -25,7 +27,7 @@ We are doing this assuming the internal communication on the server is secure. S
 {% if post.excerpt != post.content %}
     <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
 {% endif %}
-
+<!--end_excerpt-->
 ## Nginx configuration
 
 First, we need to make a config file with the subdomain we are using in /etc/nginx/sites-available. In example, /etc/nginx/sites-available/wchat.example.xyz. After this step, we need to create a symbolic link for the config file to the /etc/nginx/sites-enabled/ folder with the command
