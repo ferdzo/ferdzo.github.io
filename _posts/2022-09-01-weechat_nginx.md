@@ -22,6 +22,10 @@ exporting them and copying to the Weechat folder and importing them and so on an
 
 We are doing this assuming the internal communication on the server is secure. So we can use SSL just on the Nginx side because if use SSL on both sides it gets much more complicated and it's not worth the inconvenience. Anyway, if the internal communication on our server is not secure there's no point in doing any of this.
 
+{% if post.excerpt != post.content %}
+    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+{% endif %}
+
 ## Nginx configuration
 
 First, we need to make a config file with the subdomain we are using in /etc/nginx/sites-available. In example, /etc/nginx/sites-available/wchat.example.xyz. After this step, we need to create a symbolic link for the config file to the /etc/nginx/sites-enabled/ folder with the command
