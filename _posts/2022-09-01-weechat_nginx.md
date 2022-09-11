@@ -23,10 +23,7 @@ exporting them and copying to the Weechat folder and importing them and so on an
 3.  Most of the time I have Nginx already on my server for various jobs, such as proxying other apps or hosting something else. So it is easy to add just one more config file and make it work perfectly and without any hassle.
 
 We are doing this assuming the internal communication on the server is secure. So we can use SSL just on the Nginx side because if use SSL on both sides it gets much more complicated and it's not worth the inconvenience. Anyway, if the internal communication on our server is not secure there's no point in doing any of this.
-<!--end_excerpt-->
-{% if post.excerpt != post.content %}
-    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
-{% endif %}
+<!-- more -->
 
 ## Nginx configuration
 
